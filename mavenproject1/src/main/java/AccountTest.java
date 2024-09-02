@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class AccountTest {
     public static void main(String[] args) {
         
-        Account account1 = new Account("Ishfak Akbar",100);
-        Account account2 = new Account("Mahir Ihsan",200);
+        Account account1 = new Account("tamanna",100);
+        Account account2 = new Account("suchi",200);
         
         System.out.println(account1.getName()+" : "+account1.getBalance());
         System.out.println(account2.getName()+" : "+account2.getBalance());
